@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+h1 {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 4vh;
+}
+
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.Pesquisar {
+    display: flex ;
+    
+}
+
+.User {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.BebasNeue {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    font-size: 1.3vw; 
+    margin-right: 8vh;
+    
+}
+
+.Lupa {
+    display: flex;
+    width: 60px ;
+    height: 60px ;
+    background-color: #F0EFEF ;
+    padding: 10px ;
+    border: #000000 ;
+    border: 2px solid black ; 
+    display: inline-block ;
+}
+
+input::placeholder {
+    font-size: 18px;   /* tamanho do texto */
+    color: black;
+    opacity: 70%;       /* cor opcional */
+
+}
+
+.Procurador {
+    background-color: #DDDDDD;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    width: 700px;
+    height: 60px;
+}
+.badge {
+
+  top: 0;
+  right: 0;
+  background: black;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(25%, -25%);
+  margin-bottom: 50px;
+  
+}
+
+.menu {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.alinhamento {
+    display: flex;
+    align-items: center;
+    font-size: 4vh;
+}
+
+.linhaTop {
+    height: 10px;
+    background-color: #000000;
+    border: none;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+  .background {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* preto com 40% de opacidade */
+}
+
+.trabalhamos {
+    display: flex;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px !important;
+    margin-top: 30px;
+    justify-content: center; /* centraliza o conteúdo */
+    margin: 50px;
+}
+
+.alinhamento {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* espaço entre os elementos */
+}
+
+.alinhamento h1 {
+    text-transform: uppercase;
+    margin: 0;
+  
+}
+
+.linhaFina {
+    flex: 1; /* faz a linha ocupar todo espaço disponível */
+    height: 5px;
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.alinhamento img.inverter {
+    transform: scaleX(-1); /* inverte a imagem da direita */
+}
+
+
+.marcas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.espacamento {
+    margin-left: 7vh;
+    margin-righ: 7vh;
+}
+
+h2 {
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.arrowLeft {
+    margin: 30px;
+    background-color: #DDDDDD;
+    border: #000000;
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+    border-radius: 10px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body {
+    justify-content: center;
+    
+}
+
+.arrowRight {
+    transform: scaleX(-1);
+    margin: 30px;
+    background-color: #DDDDDD;
+    border: #000000;
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+    border-radius: 10px;
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+}
+
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.whatsapp-fixo img {
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-fixo img:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-fixo span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #000;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #000000;
+}
+
+h3 {
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh;
+}
+
+
+.produtos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 50px;
+  position: relative;
+  flex-wrap: nowrap;
+}
+
+/* Container que agrupa os cards */
+.cards-container {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+/* Esconde a barra de rolagem horizontal */
+.cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Botões de seta */
+.arrow {
+  background-color: #1b1a55;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.arrow img {
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+
+.arrow:hover {
+  background-color: #ff5fbd;
+  transform: scale(1.1);
+}
+
+/* Personalização do card */
+.custom-card {
+  background-color: #111;
+  color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 530px;
+  width: 350px;
+  flex: 0 0 auto;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+ 
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255, 95, 189, 0.3);
+}
+
+/* Imagem do card */
+.custom-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+}
+
+/* Corpo do card */
+.custom-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Título */
+.custom-card .card-title {
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  font-size: 23px;
+}
+
+/* Texto */
+.custom-card .card-text {
+  color: #e3e3e3;
+  margin-bottom: 1rem;
+  font-size: 30 px;
+}
+
+/* Botão */
+.custom-btn {
+  background-color: #65F0FF;
+  color: black;
+  border: none;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 8px 20px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.custom-btn:hover {
+  background-color: #ff5fbd;
+  transform: scale(1.05);
+}
+
+/* Preços */
+.strong-1 {
+  color: #65F0FF;
+}
+
+.strong-2 {
+  color: #993939;
+  text-decoration: line-through;
+}
+
